@@ -6,14 +6,14 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>file://ralt/structure/meshes/fulllab.dae</uri>
+            <uri>model://structure/meshes/fulllab.dae</uri>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>file://ralt/structure/meshes/fulllab.dae</uri>
+            <uri>model://structure/meshes/fulllab.dae</uri>
           </mesh>
         </geometry>
       </visual>

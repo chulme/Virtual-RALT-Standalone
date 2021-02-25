@@ -15,7 +15,7 @@
 
 		<!-- The Virtual RALT Structure -->
 		<include>
-			<uri>file://ralt/structure</uri>
+			<uri>model://structure</uri>
 		</include>
 	</world>
 </sdf>
