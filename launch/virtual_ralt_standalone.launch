@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <launch>
         <arg name="world_name" default="virtual_ralt_standalone.world"/>
-        <arg name="world_path" default="$(find virtual_ralt_standalone)/worlds"/>
+        <arg name="world_path" default="$(find tmc_wrs_gazebo_worlds)/worlds"/>
 
         <arg name="gazebo_gui" default="true"/>
 
