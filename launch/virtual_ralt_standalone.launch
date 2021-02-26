@@ -40,22 +40,5 @@
                 <arg name="use_web" value="$(arg use_web)" />
         </include>
         
-        <!-- moveit
-        <include file="$(find hsrb_moveit_config)/launch/hsrb_demo_with_controller.launch">
-                <arg name="use_gui" value="false"/>
-                <arg name="load_robot_description" value="false"/>
-        </include>
-
-        <!-- rosnav -->
-        <include file="$(find hsrb_rosnav_config)/launch/hsrb_nav.launch">
-                <arg name="map_file" value="$(arg map)"/>
-                <arg name="localization_type" value="iris_lama_loc2d"/>
-        </include>
-
-        <!-- pose_to_odom -->
-        <node pkg="topic_tools" type="relay" name="odom_relay"
-                args="/hsrb/laser_odom /hsrb/odom" if="$(arg use_laser_odom)" />
-        <node pkg="topic_tools" type="relay" name="odom_relay"
-                args="/hsrb/offset_diff_drive_controller/odom /hsrb/odom" unless="$(arg use_laser_odom)" /> -->
 
 </launch>
