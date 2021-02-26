@@ -13,6 +13,9 @@
                 <arg name="world_name" value="$(arg world_path)/$(arg world_name)" />
                 <arg name="paused" value="false"/>
                 <arg name="verbose" value="true"/>
+        
+        <include file="$(find hsrb_wrs_gazebo_launch)/launch/include/wrs_common.xml"
+                pass_all_args="true" >
         </include>
-
+        
 </launch>
